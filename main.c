@@ -1,7 +1,12 @@
 #include <stdio.h>
-/* main: generate some simple output */
+/*
+* comment1
+* main: generate some simple output
+*/
 int main(void)
 {
-	printf("Hello, world.\n");
+	printf(/* comment2 */"Hello, world.\n"); /* comment3 */
+	printf("Goodbye, ");
+	printf("cruel world!\n");
 	return 0;
 }
